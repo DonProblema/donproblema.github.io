@@ -97,6 +97,7 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: justify;
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
@@ -125,6 +126,7 @@ nav ul li {
 }
 
 .more-about {
+  margin-top: 15px;
   background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
