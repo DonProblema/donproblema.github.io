@@ -8,6 +8,7 @@
 
   <!--CSS Styles -->
   <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
@@ -23,7 +24,7 @@
   <nav>
     <h1>ALEJANDRO FERNÁNDEZ BARRIENTOS</h1>
     <ul class="navigation">
-      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#more-about" class="nav-link">About</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#projects" class="nav-link">Projects</a></li>
       <li><a href="#contact" class="nav-link">Contact</a></li>
@@ -39,15 +40,15 @@
     <div class="bio animate__animated animate__shakeX">
       <h2 class="bio-title">About Me</h2>
       <p class="bio-text">
-        Software Developer with 4+ years of experience developing web and desktop applications 
-        in Banking and Telecommunications companies using .NET Framework, C#, JavaScript, SQL Server/Oracle Databases 
-        and Services (SOAP & REST). Now learning to create video games with Unity and C#.
+        Software Developer with 4+ years of experience developing web and desktop applications
+        in Banking, governmental, retail and Telecommunications companies using .NET Framework, C#, JavaScript, SQL
+        Server/Oracle Databases and Services (SOAP & REST). Now I'm learning to create video games with Unity.
       </p>
     </div>
   </section>
 
   <!-- More about -->
-  <section class="more-about">
+  <section class="more-about" id="more-about">
     <h2>More About Me</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
@@ -71,18 +72,21 @@
 
     <div class="skills-wrapper">
       <div class="first-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/c-sharp2.png" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/microsoft-dot-net.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/sql-server.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/oracle-database.svg" alt="" loading="lazy" class="icon icon-card" />
       </div>
 
       <div class="second-set animate__animated animate__pulse">
-        <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/unity-game-engine.svg" alt="" loading="lazy" class="icon icon-card" />
       </div>
     </div>
   </section>
+
   <!-- Projects section -->
   <section class="projects" id="projects">
     <h2 class="projects-title">Some of my Recent Projects</h2>
@@ -91,7 +95,7 @@
         <img src="assets/images/running-worker.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
         <h3 class="project-title">Running Worker!</h3>
         <p class="project-details">
-          Videogame created following the Official learning tutorial called <b>Unity Junior Programmer</b> 
+          Videogame created following the Official learning tutorial called <b>Unity Junior Programmer</b>
         </p>
         <a href="game.html" class="project-link">Check it Out</a>
       </div>
@@ -106,7 +110,7 @@
         </p>
         <a href="#" target="_blank" class="project-link">Check it Out</a>
       </div>
-      
+
       <div class="project-container project-card">
         <img src="assets/images/greenyEarth.png" alt="greeny-earth" loading="lazy" class="project-pic" />
         <h3 class="project-title">Greeny Earth</h3>
@@ -125,7 +129,7 @@
     <h2>Get In Touch With Me</h2>
     <div class="contact-form-container">
       <div class="contact-form">
-        <form action="https://formspree.io/f/xyylngw" method="POST">
+        <form action="https://formspree.io/f/xpzkvdwj" method="POST">
           <div class="form-control">
             <label for="name">Name</label>
             <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
@@ -141,6 +145,9 @@
             <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
               class="input-field" required></textarea>
           </div>
+          <br/>
+          <div class="g-recaptcha" data-sitekey="6LcAdzEdAAAAAIKxkMsRt5K8irbWq5kBb2H6oiOF"></div> 
+          <br/>
           <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
         </form>
       </div>
@@ -153,9 +160,10 @@
         class="socicon" /></a>
     <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
         class="socicon" /></a>
-    <a href="https://www.linkedin.com/in/alejandrofernandezb/?locale=en_US" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy"
-        class="socicon" /></a>
-    <a href="https://github.com/DonProblema" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon" />
+    <a href="https://www.linkedin.com/in/alejandrofernandezb/?locale=en_US" target="_blank"><img
+        src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/DonProblema" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+        class="socicon" />
     </a>
   </div>
 

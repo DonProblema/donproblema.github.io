@@ -126,7 +126,7 @@ nav ul li {
 }
 
 .more-about {
-  margin-top: 15px;
+  margin-top: 30px;
   background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
@@ -254,7 +254,12 @@ nav ul li {
   border: none;
   border: 2px outset var(--primary-color);
   font-size: 0.875rem;
+  text-align: center;
   outline: none;
+}
+
+.g-recaptcha {
+  margin-left: 150px;
 }
 
 .input-field::placeholder {
