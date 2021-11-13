@@ -411,3 +411,16 @@ footer {
     max-width: 17.75rem;
   }
 }
+
+/* game.html */
+.game-wrap {
+  margin-top: 15px;
+  text-align: center;
+  overflow-y:hidden !important;
+}
+
+.subheader{
+  font-size: 38px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
