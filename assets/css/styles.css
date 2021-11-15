@@ -429,3 +429,10 @@ footer {
   border-bottom: 1px solid #eee;
   padding-bottom: 10px;
 }
+
+.game-detail .subheader{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  border:none;
+  text-align: center;
+}
