@@ -7,15 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!--CSS Styles -->
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Web Scripts -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <!--Google reCaptcha-->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>  
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
 
-  <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <title>Alejandro Fernández Barrientos | Software Developer</title>
 </head>
 
@@ -36,13 +42,17 @@
 
   <!-- Hero Section -->
   <section class="hero" id="about">
-    <img src="assets/images/character 18.svg" alt="john-doe" loading="lazy" class="hero-img" />
+    <!-- <img src="assets/images/character 18.svg" alt="john-doe" loading="lazy" class="hero-img" /> 
+    <iframe src="https://embed.lottiefiles.com/animation/27432" class="hero-img"></iframe> -->
+    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_sSF6EG.json"  background="transparent"  
+    speed="1"  style="width: 600px; height: 600px;"  loop autoplay></lottie-player>
     <div class="bio animate__animated animate__shakeX">
       <h2 class="bio-title">About Me</h2>
       <p class="bio-text">
         Software Developer with 4+ years of experience developing web and desktop applications
-        in Banking, governmental, retail and Telecommunications companies using .NET Framework, C#, JavaScript, SQL
-        Server/Oracle Databases and Services (SOAP & REST). Now I'm learning to create video games with Unity.
+        in Banking, governmental, retail and Telecommunications companies using C#, .NET Framework, HTML, CSS, 
+        JavaScript, SQL Server/Oracle Databases and Services (SOAP & REST). 
+        Now I'm learning to create video games with Unity.
       </p>
     </div>
   </section>
@@ -74,8 +84,8 @@
       <div class="first-set animate__animated animate__pulse">
         <img src="assets/icons/c-sharp2.png" alt="" loading="lazy" class="icon icon-card" />
         <img src="assets/icons/microsoft-dot-net.svg" alt="" loading="lazy" class="icon icon-card" />
-        <img src="assets/icons/sql-server.svg" alt="" loading="lazy" class="icon icon-card" />
         <img src="assets/icons/oracle-database.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/sql-server.svg" alt="" loading="lazy" class="icon icon-card" />        
       </div>
 
       <div class="second-set animate__animated animate__pulse">
@@ -143,9 +153,9 @@
             <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
               class="input-field" required></textarea>
           </div>
-          <br/>
-          <div class="g-recaptcha" data-sitekey="6LcAdzEdAAAAAIKxkMsRt5K8irbWq5kBb2H6oiOF"></div> 
-          <br/>
+          <br />
+          <div class="g-recaptcha" data-sitekey="6LcAdzEdAAAAAIKxkMsRt5K8irbWq5kBb2H6oiOF"></div>
+          <br />
           <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
         </form>
       </div>
@@ -163,7 +173,16 @@
     <a href="https://github.com/DonProblema" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
         class="socicon" />
     </a>
-  </div>
+  </div> 
+
+  <!--
+  <div class="social">
+    <ul>
+      <li><a href="#" target="_blank">Twitter <i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://github.com/DonProblema" target="_blank">Github <i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/alejandrofernandezb/" target="_blank">Linkedin <i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  </div> -->
 
   <!-- Footer section -->
   <footer>
